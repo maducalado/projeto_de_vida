@@ -1,0 +1,7 @@
+ const botoes = document.querySelecconsttorAll(".botao");
+
+ for(let i = 0; i < botoes.length; i++){
+     botoes[i].onclickc = function(){
+        botoes[i].classlist.add("ativo");
+     }
+ }
